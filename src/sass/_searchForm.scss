@@ -1,0 +1,29 @@
+.search-form{
+    height: 75px;
+    background-color: darkblue;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+
+    input {
+        width: 20%;
+        height: 42px;
+        padding-left: 10px;
+        border: 2px solid lightblue;
+        outline: none;
+        background: #F9F0DA;
+        color: #9E9C9C;
+        border-radius: 5px 0 0 5px;
+        margin-top: 15px
+
+    
+}
+button {
+    height: 42px;
+    border: none;
+    background: lightgray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+}

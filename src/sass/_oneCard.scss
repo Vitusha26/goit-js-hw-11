@@ -1,0 +1,37 @@
+.gallery{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    .photo-card{
+      background: white;
+      height: 275px;
+      width: 300px;
+      border-style: solid ;
+      margin: 20px 10px 0 10px;
+      border-radius: 5px;
+      
+      .info{
+        display: flex;
+        text-align: center;
+      }
+      img{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        
+      }
+    }
+}
+
+
+.load-more{
+  width: 100px;
+  height: 35px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 10px 0 10px 0;
+  background:darkblue;
+  color:yellow
+}
