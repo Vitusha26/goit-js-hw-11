@@ -8,7 +8,7 @@ const searchForm = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 searchForm.addEventListener('submit', onSubmit);
-// const input = document.getElementsByTagName('input').searchQuery;
+
 
 function onSubmit(event) {
   event.preventDefault();
@@ -18,6 +18,7 @@ function onSubmit(event) {
   getPictures(searchQuery, 1);
 
   function twoFunc () {
+    
       document.getElementById('load-butt').style.display="block";
   }
 twoFunc()
