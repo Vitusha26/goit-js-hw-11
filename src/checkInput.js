@@ -1,5 +1,5 @@
-inp = document.querySelector('.text1')
-btn = document.querySelector('.btn')
+let inp = document.querySelector('.text1')
+let btn = document.querySelector('.btn')
     btn.setAttribute('disabled', true);
     inp.oninput = function () {
         console.log(inp.value);
